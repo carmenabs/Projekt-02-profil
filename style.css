@@ -2,7 +2,6 @@
 /* toto je černá magie, na kterou nešahej! */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
-
 /*
 BARVY
 czechitas                 #b92e81
@@ -17,5 +16,57 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+width: 220px;
+ padding-left: 15px; padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+.jmeno{ font-family: 'Montserrat'; 
+    font-size: 17px; }
+
+.foto{width: 220px;
+    margin: 0,0;
+    border-bottom: 0px;
+    padding-bottom: 0%; 
+    vertical-align: bottom;}
+
+.logo{ background-color:#b92e81 ;
+border-radius: 50%;
+float: right;} 
+
+
+
+.obsah{ background-color: #31363b;
+    color: gainsboro; 
+    width: 220px; 
+    height: 275px; 
+    padding: 25px;
+    padding-top: 10px;
+
+    align-items: baseline;}
+
+.profil{width: 200px;
+    font-family: 'Source Sans Pro', sans-serif; font-size: 12px;}
+
+.odkazy li{ display: inline-block; padding: 20px; text-transform: uppercase; }
+
+.odkazy{margin: 0%;
+padding: 0%;text-align: center; background-color:#31363b; width: 220px;
+}
+.odkazy a { display: block;
+    color:gainsboro;
+text-decoration: none;
+font-family: 'Montserrat';
+padding: 20px, 20px; }
+
+.portfolio a:hover { background-color: #e74c3c;}
+
+.facebook a:hover{ background-color: #3b5998;}
+
+.twitter a:hover{background-color: #1da1f2;}
